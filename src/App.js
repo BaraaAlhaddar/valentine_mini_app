@@ -34,7 +34,7 @@ function App() {
         <>
           <img width={"300px"} src="/header_img.webp" />
           <p>Will you be my valentine?</p>
-          <div className="d-flex gap-2">
+          <div className="d-flex gap-2 flex-wrap">
             <Button
               style={{ fontSize: `calc(${counter + 1} * 1rem)` }}
               variant="success"
